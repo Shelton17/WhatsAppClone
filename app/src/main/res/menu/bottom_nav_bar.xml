@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/miChats"
+        android:title="Chats"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_chats_foreground"/>
+    <item
+        android:id="@+id/miCalls"
+        android:title="Calls"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_calls_foreground"/>
+    <item
+        android:id="@+id/miCommunities"
+        android:title="Communities"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_communities_foreground"/>
+    <item
+        android:id="@+id/miStatus"
+        android:title="Status"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_status_foreground"/>
+
+
+</menu>
