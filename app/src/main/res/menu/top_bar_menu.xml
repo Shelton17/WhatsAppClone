@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miCamera"
+        android:title="Camera"
+        android:icon="@drawable/ic_camera_foreground"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/miSearch"
+        android:title="Search"
+        android:icon="@drawable/ic_search_foreground"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/miNewGroup"
+        android:title="New Group"
+        android:icon="@drawable/ic_search_foreground"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/miStarredMessages"
+        android:title="Starred Messages"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/miSettings"
+        android:title="Settings"
+        app:showAsAction="never"/>
 
 </menu>
